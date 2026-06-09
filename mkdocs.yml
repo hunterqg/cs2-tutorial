@@ -1,0 +1,17 @@
+site_name: CS2 百科教程站
+site_url: https://hunterqg.github.io/cs2-tutorial/
+theme:
+  name: material
+  features:
+    - navigation.tabs
+    - navigation.sections
+plugins:
+  - search
+  - awesome-pages
+nav:
+  - 首页: index.md
+  - 武器库: weapons/
+markdown_extensions:
+  - admonition
+  - pymdownx.details
+  - pymdownx.superfences
