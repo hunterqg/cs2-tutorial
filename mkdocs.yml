@@ -9,8 +9,6 @@ plugins:
   - search
   - awesome-pages
 nav:
-  - 首页: index.md
-  - 武器库: weapons/
 markdown_extensions:
   - admonition
   - pymdownx.details
